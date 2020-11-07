@@ -1,0 +1,28 @@
+.Card-root {
+    border-radius: 8px;
+}
+
+.CardHeader-root {
+    display: flex;
+    color: white;
+    padding: 16px;
+    align-items: center;
+    background-color: cornflowerblue;
+    border-radius: 8px 8px 0 0;
+}
+
+.CardHeader-title {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.CardHeader-title * {
+    margin-bottom: 0;
+}
+
+.CardContent-root {
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 8px 8px;
+}

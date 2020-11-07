@@ -1,0 +1,17 @@
+.CloseButton-root {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.CloseButton-root:focus {
+    outline: none;
+}
+
+.CloseButton-root:hover {
+    color: lightgray;
+}

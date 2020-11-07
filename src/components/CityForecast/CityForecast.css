@@ -1,0 +1,25 @@
+.CityForecast {
+   border: 1px solid grey; 
+   border-radius: 8px;
+}
+
+.CityForecast-icon {
+    height: 40px;
+}
+
+.CityForecast-content {
+    display: flex;
+}
+
+.CityForecast-container {
+    display: flex;
+}
+
+.CityForecast-grid {
+    display: grid;
+    grid-template-columns: auto max-content;
+}
+
+.CityForecast-grid :nth-child(odd) {
+    margin-right: 24px;
+}
