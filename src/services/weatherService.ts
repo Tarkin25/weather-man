@@ -1,4 +1,4 @@
-const url = "http://api.openweathermap.org/data/2.5/weather?appid=7e9fb89639a21a3dd453e08cb7379eec&units=metric";
+const url = "https://api.openweathermap.org/data/2.5/weather?appid=7e9fb89639a21a3dd453e08cb7379eec&units=metric";
 
 export type WeatherResponse = {
     location: {
